@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gemma Chat</title>
+
+    <link rel="stylesheet" href="/static/style.css">
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/github-dark.min.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div id="chat-window">
+
+            <div class="welcome-screen">
+
+                <h1>Gemma 3 Chat</h1>
+
+                <p>
+                    Powered by Ollama + LangGraph + FastAPI
+                </p>
+
+            </div>
+
+        </div>
+
+        <div class="input-container">
+
+            <div class="input-box">
+
+                <textarea id="message"
+                    rows="1"
+                    placeholder="Message Gemma..."></textarea>
+
+                <button id="send-btn">
+                    ↑
+                </button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="/static/app.js"></script>
+
+</body>
+
+</html>
